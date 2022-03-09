@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="^dn`zqbwqiYJ,1/NL@G@">meteor</variable></variables><block type="pxt-on-start" id="A%WL!e:1*U@9+o2Zl,^;" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="ln!DQwZUT~qD5^!G@,CG"><value name="color"><shadow type="colorindexpicker" id="NV44+zW0oD8Q1w[|95@s"><field name="index">12</field></shadow></value><next><block type="gamecountdown" id="v4_MV`)puPPU}.T~U$4~"><value name="duration"><shadow type="math_number" id="U.lxm31)_hU[JYcSb!H$"><field name="NUM">10</field></shadow></value></block></next></block></statement></block><block type="gameinterval" id="RO%ILaVFY:CS5!;gSh;e" x="10" y="210"><value name="period"><shadow type="timePicker" id="Zd7T/q-7Z4+U6n@TbD6M"><field name="ms">750</field></shadow></value><statement name="HANDLER"><block type="variables_set" id="$T!o^fUV,98~u@Yb~y{V"><field name="VAR" id="^dn`zqbwqiYJ,1/NL@G@">meteor</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreateprojectilefromside" id="O95kcYid6!%cwhZd`mmz"><value name="img"><shadow type="screen_image_picker" id="I63CMGqu7;5iRtLsvB0J"><field name="img">img`
+. . . . . . . . . c c 8 . . . . 
+. . . . . . 8 c c c f 8 c c . . 
+. . . c c 8 8 f c a f f f c c . 
+. . c c c f f f c a a f f c c c 
+8 c c c f f f f c c a a c 8 c c 
+c c c b f f f 8 a c c a a a c c 
+c a a b b 8 a b c c c c c c c c 
+a f c a a b b a c c c c c f f c 
+a 8 f c a a c c a c a c f f f c 
+c a 8 a a c c c c a a f f f 8 a 
+. a c a a c f f a a b 8 f f c a 
+. . c c b a f f f a b b c c 6 c 
+. . . c b b a f f 6 6 a b 6 c . 
+. . . c c b b b 6 6 a c c c c . 
+. . . . c c a b b c c c . . . . 
+. . . . . c c c c c c . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"I63CMGqu7;5iRtLsvB0J"}}</data></shadow></value><value name="vx"><shadow type="spriteSpeedPicker"><field name="speed">50</field></shadow><block type="device_random" id="Kb._o$xo2liLiW1E#6j|"><value name="min"><shadow type="math_number" id="QXlzwnqh7@%6_$YF(0yW"><field name="NUM">-30</field></shadow></value><value name="limit"><shadow type="math_number" id="XmGEOex4Vy7Dkm}8W_vN"><field name="NUM">-20</field></shadow></value></block></value><value name="vy"><shadow type="spriteSpeedPicker" id="e^@;.Js/s+YtTs5Qw.Ux"><field name="speed">0</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id=";FcOoGL:-8ZF~e$,9~IK"><field name="property">Sprite.y@set</field><value name="mySprite"><block type="variables_get" id="EjX7X]$FAd:IpuJ*LF]z"><field name="VAR" id="^dn`zqbwqiYJ,1/NL@G@">meteor</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="@$FR+OE_ni8$@~)J7f[w"><value name="min"><shadow type="math_number" id="voZ2NT`}4Wgy.7fSjk*5"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number"><field name="NUM">10</field></shadow><block type="scenescreenheight" id="{%oDL.4/M2(Y{}}|C23C"></block></value></block></value></block></next></block></statement></block></xml>
