@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQgABAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAAAA8A8AALz8APC/DwAAvLv/z7sPAADAu8u8+wAAAMDdu7wPAAAAAMy//AAAAAAA8M/8AAAAAADPzLwMAAAAAM/M3AwAAADwzMy8zQAAAPDMzMzNAAAA8MzMzN0M/wDPu8vMzfzP/7+7u8zM+7/LvLu7y7/73Lu8y7u7u/3cvby8u7vb/MDNzMu8u7sPwMy8vBsR/AwA/Ly7ERERDAAAv/sfHBEMAAC/+x/MEQwAAL+7ERPMAAAAv7sRM8MAAAC/uxvBwQAAAPC7G8H8AAAA8Lu7wQ8AAAAAv7z7AAAAAADwuw8AAAAAAPD/AAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "SharkRight"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

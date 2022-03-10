@@ -1,4 +1,8 @@
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+	
+})
 let meteor: Sprite = null
+let mySprite = sprites.create(assets.image`SharkRight`, SpriteKind.Player)
 scene.setBackgroundColor(12)
 info.startCountdown(10)
 game.onUpdateInterval(750, function () {
